@@ -12,7 +12,7 @@ mongoose.connect(config.uri, (err) => {
     }
 });
 
-app.use(express.static(__dirname+'/client/dist/'));
+//app.use(express.static(__dirname+'/client/dist/'));
 
 app.get('*', (req, res) => {
     res.send('<h1>hello world!</h1>');
