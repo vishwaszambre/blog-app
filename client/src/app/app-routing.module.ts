@@ -7,7 +7,10 @@ const appRoutes: Routes = [
         path: '',
         component: HomeComponent
     }
-    // { path: '**', component: PageNotFoundComponent }
+    // {
+    //     path: '**',
+    //     component: PageNotFoundComponent
+    // }
 ]
 
 @NgModule({
